@@ -1,15 +1,11 @@
 import React from 'react';
 import './App.scss';
-import Container from './components/Conteiner';
-import FormTodo from './components/FormTodo';
-import TaskList from './components/TaskList';
+import Container from './components/Container';
 
 function App() {
   return (
     <div className="App">
       <Container/>
-      <FormTodo/>
-      <TaskList/>
     </div> 
   );
 }
